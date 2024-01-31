@@ -1,0 +1,14 @@
+// 1) Write a Rust Program on printing the values assigned to
+// different variables belonging to different data types.
+
+fn main() {
+    let name = "Sudhir prajapati";
+    let age : u32 = 36;
+    let is_new : bool = true;
+    let marks = [10,20,30,40,50,60,70,80,90,100];
+    
+    println! ("name: {}",name);
+    println! ("age: {}",age);
+    println! ("is new: {}",is_new);
+    println! ("marks: {:?}",marks);
+}
